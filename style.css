@@ -1,0 +1,68 @@
+body
+	{	
+		background-color: black;
+		display: flex;
+		justify-content:center;
+		
+	}
+
+table	
+	{
+		border:5px solid white;
+		border-collapse: collapse;
+		width:600px; height: 600px;
+	}
+td
+	{
+		width: 50px;
+	    height: 50px;}
+.hau1
+	{ 
+		background-color : #fde794;
+	}
+.hau2
+	{ 
+		background-color : #8f5a23;
+	}
+
+.centre1
+	{ 
+		background-color : #fee789;
+	}
+.centre2
+	{ 
+		background-color : #9e5211;
+	}
+
+.bas1
+	{ 
+		background-color : #fcd77e;
+	}
+.bas2
+	{ 
+		background-color : #8d541d;
+	}
+
+@media (max-width: 1200px) {
+		table {
+			width: 90%; 
+		}
+	
+		td {
+			width: 8px; 
+			height: 8px;
+		}
+	}
+
+@media (max-width: 768px) 
+	{
+		table 
+			{
+			width: 70%; 		
+			}
+	
+		td {
+			width: 6px;
+			height: 6px; 
+			}
+	}
